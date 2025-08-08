@@ -27,7 +27,7 @@
     "url": "git+https://github.com/5cover/squrly-format.git"
   },
   "license": "MIT",
-  "author": "\"formatter\",",
+  "author": "Scover",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
