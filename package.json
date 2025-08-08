@@ -1,0 +1,63 @@
+{
+  "name": "squrly-format",
+  "version": "1.0.0",
+  "description": "A minimal template format using {} and [] to make strings smarter.",
+  "keywords": [
+    "string",
+    "template",
+    "format",
+    "formatter",
+    "interpolation",
+    "placeholder",
+    "minimal",
+    "lightweight",
+    "cli",
+    "template-string",
+    "squrly",
+    "prefix",
+    "suffix",
+    "string-template"
+  ],
+  "homepage": "https://github.com/5cover/squrly-format#readme",
+  "bugs": {
+    "url": "https://github.com/5cover/squrly-format/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/5cover/squrly-format.git"
+  },
+  "license": "MIT",
+  "author": "\"formatter\",",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "test": "tsx --test",
+    "build": "tsc -p tsconfig.build.json",
+    "lint": "eslint",
+    "prepare": "eslint && tsx --test && tsc -p tsconfig.build.json"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@eslint/compat": "^1.3.1",
+    "@types/node": "^24.2.0",
+    "@typescript-eslint/eslint-plugin": "^8.39.0",
+    "@typescript-eslint/parser": "^8.39.0",
+    "eslint": "^9.32.0",
+    "eslint-config-prettier": "^10.1.8",
+    "tsx": "^4.20.3",
+    "typescript-eslint": "^8.39.0"
+  }
+}
