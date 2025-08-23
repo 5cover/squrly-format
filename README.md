@@ -12,6 +12,10 @@ Licensed under the MIT License.
 
 ## Changelog
 
+### 1.0.1
+
+- Moved all 8 dependencies to devDependencies (mistake)
+
 ### 1.0.0
 
-Initial release
+- Initial release
