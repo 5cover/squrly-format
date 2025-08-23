@@ -1,6 +1,6 @@
 {
   "name": "squrly-format",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A minimal template format using {} and [] to make strings smarter.",
   "keywords": [
     "string",
